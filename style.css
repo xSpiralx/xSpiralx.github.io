@@ -12,14 +12,14 @@
 }
 
 #menu ul {
-    height: auto;
-    padding: 8px 0px;
-    margin: 0px;
+    position:fixed;
+    top:0;
+    width:100%;
 }
 
 #menu li { 
 display: inline; 
-padding: auto; 
+padding: 20px; 
 color:gray;
 }
 
