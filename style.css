@@ -6,7 +6,7 @@
     font-weight: bold;
     text-align: center;
     text-shadow: 3px 2px 3px white;
-    color:white;
+    
     background-color: black;
         border-radius: 8px;
 }
@@ -20,6 +20,7 @@
 #menu li { 
 display: inline; 
 padding: 20px; 
+color:white;
 }
 
 #menu a {
