@@ -12,9 +12,11 @@
 }
 
 #menu ul {
-    position:fixed;
-    top:0;
-    width:100%;
+     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #323232;
 }
 
 #menu li { 
@@ -24,8 +26,13 @@ color:gray;
 }
 
 #menu a {
-    text-decoration: none;
+    display: block;
     color: white;
-    padding: 8px 8px 8px 8px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
+li a:hover {
+    background-color: #111;
+}
