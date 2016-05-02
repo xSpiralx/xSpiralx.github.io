@@ -20,7 +20,7 @@
 
 #menu li { 
 float: left; 
-padding: 20px; 
+padding: auto; 
 color:gray;
 }
 
