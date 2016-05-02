@@ -18,8 +18,8 @@
 }
 
 #menu li { 
-float: left; 
-padding: 20px; 
+display: inline; 
+padding: auto; 
 color:white;
 }
 
