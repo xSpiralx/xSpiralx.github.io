@@ -1,7 +1,9 @@
 #menu {
     display: inline;
     width: 550px;
-    height: 35px;
+    height: auto;
+    padding:8px 0px;
+    margin:0px;
     font-size: 16px;
     font-family: Tahoma, Geneva, sans-serif;
     font-weight: bold;
