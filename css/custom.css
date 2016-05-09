@@ -3,3 +3,7 @@
   height: 150px;
   border: 3px;
 }
+
+.location h2{
+  text-decoration-style: center-block;
+}
