@@ -4,6 +4,12 @@
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" media="screen" />
   </head>
   <body>
+    <script>
+$(".nav a").on("click", function(){
+  $(".nav").find(".active").removeClass("active");
+  $(this).parent().addClass("active");
+});
+</script>
     <style>
     body{
       padding-top: 40px;
