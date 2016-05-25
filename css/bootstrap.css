@@ -227,7 +227,6 @@ th {
   }
   img {
     max-width: 100% !important;
-    max-height: 100%;
   }
   p,
   h2,
@@ -1189,7 +1188,6 @@ h6,
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
-  text-align: center;
 }
 h1 small,
 h2 small,

@@ -1,193 +1,163 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="/css/custom.css" media="screen" />
-  </head>
-  <body>
-    <style>
-      body{
-        padding-top: 40px;
-      }
-    </style>
-  <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+<html lang="en">
 
-        <a href="" class="navbar-brand">Cubby's</a>
-        <img class="img-circle navbar-left" src="http://3.bp.blogspot.com/-vRUsylICPQI/T073lE2SPjI/AAAAAAAAACY/EXUDar3iR6w/s920/logo%2Bcubby%2527s%2Bstore.jpg" width="50" height="50">
-      </div>
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <a href="https://www.instagram.com/cubbys/?hl=en" target="_blank" class="btn btn-default navbar-btn navbar-right">Follow us on Insta!</a>
-        <ul class="nav navbar-nav">
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#instagram">Instagram</a></li>
-          <li><a href="#locations">Locations</a></li>
-          <li><a href="#contact-us">Contact Us</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<head>
 
-  <!-- Introduction -->
-  <div class="container text-center">
-    <h1>Cubby's Chicago Beef</h1>
-    <p>Welcome to Cubby's!</p>
-    <div class="btn-group">
-      <a href="" class="btn btn-large btn-default">Spread The Word</a>
-    </div>
-  </div>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <!-- Menu -->
-<span class="menu"  id="menu"></span>
-  <div class="menu">
-    <section>
-      <div class="page-header">
-        <h2>Menu</h2>
-      </div>
-      <div class="container">
-        <img class="img-responsive center-block" src="http://1.bp.blogspot.com/-MJQrJ3T34Pk/VT-0T-nfWZI/AAAAAAAAMeI/LVpRDQoH-2g/s1600/Cubbys_Menu.png" alt="Chania" width="100%" height="345">
-        <img class="img-responsive center-block" src="http://3.bp.blogspot.com/-qWat1uIC5v4/VT-2IbfE7JI/AAAAAAAAMek/ja4LcO5JkL0/s1600/Cubbys_LineMenu_061214-(2).png" alt="Chania" width="100%" height="400">
-      </div>
-    </section>
-  </div>
+    <title>Grayscale - Start Bootstrap Theme</title>
 
-  <!-- Instagram -->
-  <span class="instagram" id="instagram"></span>
-  <div class="instagram">
-    <section>
-      <div class="page-header"></div>
-      <h2>Instagram</h2>
-      <div class="container" id="">
-        <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/13f410bec20f57eeaa590ab1f1e423e3.html" id="lightwidget_13f410bec2" name="lightwidget_13f410bec2"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
-      </div>
-    </section>
-  </div>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Locations -->
-  <span class="locations"  id="locations"></span>
-  <div class="locations">
-    <section>
-      <div class="page-header"></div>
-      <h2>Locations</h2>
-      <div class="container">
-        <div class="row-fluid">
-          <div class="col-md-4 location responsive">
-            <div class="card">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.8785646653355!2d-111.89706358460357!3d40.433687779363254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875280301e0c5363%3A0xcbc9e8f3e5803b5!2sCubby&#39;s!5e0!3m2!1sen!2sus!4v1462978255457" width="300" height="180" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <div class="card-block">
-                  <h4 class="card-title">Lehi</h4>
-                   <p>Phone:<a href="tel:1-801-766-8100"> 1-801-766-8100</a></p>
-                    <p>Adress:<a href="3700 N Thanksgiving Way, Lehi, UT 84043"> 3700 N Thanksgiving Way, Lehi, UT 84043</a></p>
-                </div>
-              </div>
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
+                </a>
             </div>
-          </div>
-            <div class="col-md-4 location responsive">
-              <div class="card">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3050.815952323731!2d-111.6476448850601!3d40.12410487940031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874dbd21071eb089%3A0xbe6b8509c1cf892c!2sCubby&#39;s!5e0!3m2!1sen!2sus!4v1462978576892" width="300" height="180" frameborder="0" style="border:0" allowfullscreen></iframe>
-                  <div class="card-block">
-                    <h4 class="card-title">Spanish Fork</h4>
-                      <p>Phone:<a href="tel:1-801-798-8422"> 1-801-798-8422</a></p>
-                        <p>Adress:<a href="515 E 1000 N, Spanish Fork, UT 84660"> 515 E 1000 N, Spanish Fork, UT 84660</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 location responsive">
-                <div class="card">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.107958712665!2d-111.66830328505537!3d40.251131979384716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d9a0af54ef831%3A0x54368586b0d6ff92!2sCubby&#39;s!5e0!3m2!1sen!2sus!4v1462979289260" width="300" height="180" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    <div class="card-block">
-                      <h4 class="card-title">Provo</h4>
-                        <p>Phone:<a href="tel:1-801-919-3023"> 1-801-919-3023</a></p>
-                         <p>Adress:<a href="1258 N State St, Provo, UT 84604"> 1258 N State St, Provo, UT 84604</a></p>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Grayscale</h1>
+                        <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
                     </div>
-                  </div>
                 </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  <span class="contact us" id="contact-us"></span>
- <div class="contact us page-header">
-   <h2>Contact Us</h2>
-  <form action="MAILTO:robert.mcd@live.com" method="post" enctype="text/plain">
-   <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="well well-sm">
-                <form class="form-horizontal" method="post">
-                    <fieldset>
-                        <legend class="text-center header">Contact us</legend>
-
-                        <div class="form-group">
-
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                            <div class="col-md-8">
-                                <textarea class="form-control" id="message" name="message" placeholder="Enter your message for us here. We will get back to you within 2 business days." rows="7"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
-                            </div>
-                        </div>
-                      </form>
-                    </fieldset>
-                </form>
             </div>
         </div>
-    </div>
-</div>
+    </header>
 
-<style>
-    .header {
-        color: black;
-        font-size: 27px;
-        padding: 10px;
-    }
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Grayscale</h2>
+                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
+                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+            </div>
+        </div>
+    </section>
 
-    .bigicon {
-        font-size: 35px;
-        color: black;
-    }
-</style>
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Download Grayscale</h2>
+                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
- </div>
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Start Bootstrap</h2>
+                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-  </body>
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Your Website 2014</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
 </html>
