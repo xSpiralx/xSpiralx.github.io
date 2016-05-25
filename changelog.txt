@@ -1,0 +1,11 @@
+Version 2.1 - Updated: 16.02.2016
+================================================
+Fixed	:	False positives from some AVs on name.png.shadow.png files
+
+Version 2.0 - Updated: 23.09.2015
+================================================
+Fixed	:	Walkers in WP 4.3
+
+Version 1.9 - Updated: 14.07.2015
+================================================
+Added	:	Changelog file
