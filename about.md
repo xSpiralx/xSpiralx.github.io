@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 <div class="man-title">
-  UP AND RUNNING WITH DevJournal
+  This is a blog that will walk you through my progression.
 </div>
 <div class="manual manual-title">
   Posting
