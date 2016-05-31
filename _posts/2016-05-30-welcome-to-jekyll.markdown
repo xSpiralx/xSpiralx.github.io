@@ -3,6 +3,7 @@ layout: post
 title:  "First Post of my new blog!!"
 date:   2016-05-30 17:06:27 -0600
 categories: jekyll update
+H1: "Hola!"
 ---
 H1 Hola
 
