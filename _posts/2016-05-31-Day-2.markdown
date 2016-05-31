@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "First Post of my new blog!!"
+date:   2016-05-31T08:10:58+00:00
+categories: jekyll update
+---
+#That's a spicy webpage!
+
+Today I will be working to style up this blog and make it much more aesthetically pleasing, thus my goal is to increase my ability with styling jekyll let's see how it goes!
+
+Goal for today: Make this blog extra pretty.
+Accomplishment: Find out in my next blog or well just look and see if the blog feels good on your eyes.
