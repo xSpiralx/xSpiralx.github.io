@@ -4,11 +4,9 @@
 @charset "utf-8";
 
 
-header {
-  background-image: url('{{ http://i1171.photobucket.com/albums/r550/robert11295/terminal_bg.jpg }}/img/terminal_bg.jpg');
-}
 
 // Our variables
+$background-image: url(../img/terminal_bg.jpg);
 $base-font-family: "Share Tech Mono", sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
