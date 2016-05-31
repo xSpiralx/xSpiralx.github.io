@@ -8,7 +8,3 @@ categories: jekyll update
 This will document the my steps through my career with coding and quest to gain various knowledge to better myself on a day to day basis.
 
 Accomplishment for the day: I made this website!
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
