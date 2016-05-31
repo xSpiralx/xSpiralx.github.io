@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "First Post of my new blog!!"
 date:   2016-05-30 17:06:27 -0600
 categories: jekyll update
 ---
-h1 Hello
+H1 Hola
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
