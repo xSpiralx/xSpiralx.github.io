@@ -4,7 +4,7 @@ title:  "Day 2 in the book of rob, making my blog much easier on the eyes...hope
 date:   2016-05-31T08:10:58+00:00
 categories: jekyll update
 ---
-#That's a spicy webpage!
+# That's a spicy webpage!
 
 Today I will be working to style up this blog and make it much more aesthetically pleasing, thus my goal is to increase my ability with styling jekyll let's see how it goes!
 
