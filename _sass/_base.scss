@@ -101,7 +101,7 @@ a {
     &:hover {
         color: $text-color;
         text-decoration: underline;
-        color: lighten($text-color, 5%)
+        color: lighten($text-color, inherit; 10%)
     }
 }
 
