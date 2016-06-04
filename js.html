@@ -8,15 +8,50 @@ permalink: /js/
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Budget App</title>
-        <script>
-        var a = [];
+        <script type="text/javascript">
+  function createTable(num_rows, numcols)
+  {
+      var num_rows = document.tablegen.rows.value;
+      var num_cols = document.tablegen.cols.value;
+      var theader = '<table>\n';
+      var tbody = '';
 
-        // On some event
-        a.push({
-          Name: newValue,
-          Address: newValue
-        });
-        </script>
+      for( var i=0; i<num_rows;i++)
+      {
+          // create each row
+          tbody += '<tr>';
+
+      for( var j=0; j<num_cols;j++)
+      {
+          // create cell
+          tbody += '<td>';
+          tbody += 'Cell ' + i + ',' + j;
+          tbody += '</td>'
+      }
+
+      // closing row table
+      tbody += '</tr>\n';
+
+      }
+
+      var tfooter = '</table>';
+
+      // TO DO
+
+      return theader + tbody + tfooter;
+  }
+  </script>
+  </head>
+
+  <body>
+  <form name="tablegen">
+  <label>Rows: <input type="text" name="rows"/></label><br />
+  <label>Cols: <input type="text" name="cols"/></label><br/>
+  <input name="generate" type="button" value="Create Table!" onclick='createTable();'/>
+  </form>
+  <script type="text/javascript">
+  document.write(createTable());
+  </script>
     </head>
     <body>
     </body>
