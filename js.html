@@ -15,12 +15,14 @@ permalink: /js/
         alert('Please do not leave it blank!');
         return;
       }
+      var myTitle = document.getElementById('title');
+      myTitle.innerHTML = myValue;
 
     }
   </script>
 </head>
 <body onload="alert('Warning, you are about to see some rad stuff.')">
- <h1>Here is my current Javascript practice.</h1>
+ <h1 id="title">Here is my current Javascript practice.</h1>
   <input type="text" id="myTextBox" />
   <input type="submit" value="Click Me" onclick="" />
 </body>
