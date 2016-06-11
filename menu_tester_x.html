@@ -33,7 +33,7 @@ permalink: /menu_tester_x/
 <input onclick="gradeTest()" name="submit" type="button" value="Grade This Test" />
 </form>
 <script type="text/javascript">
-alert("Warning: For the menu test food items will have shortened names. <br> Example: Dragonslayer patty=bleu patty and Smoked Bacon simply = bacon.")
+alert("Warning: For the menu test food items will have shortened names. Example: Dragonslayer patty=bleu patty and Smoked Bacon simply = bacon.")
 function gradeTest() {
    //variables with global implications
    var totalQuestions = 3;
@@ -41,7 +41,7 @@ function gradeTest() {
    var alertText = "Hey there cub, looks like your becominga bear!";
    var i;
    var a1 = document.getElementById('q1').value.toLowerCase();
-   if(a1 == 'bleu patty, bacon, tomato, raw onions, pickles, mixed greens, buffalo sauce') {
+   if(a1 == 'bleu patty', 'bacon', 'raw onions') {
       correctAnswers++;
    }
    var a2 = document.getElementById('q2').value.toLowerCase();
@@ -53,10 +53,10 @@ function gradeTest() {
       correctAnswers++;
    }
    if(correctAnswers == totalQuestions) {
-         alertText = "Congratulations! You got all the questions right!";
+         alertText = "Congratulations! You have become a bear little cub!";
       }
       else {
-         alertText = "You got " + correctAnswers + " out of " + totalQuestions + " correct! <br> You have become a bear little cub!";
+         alertText = "You got " + correctAnswers + " out of " + totalQuestions + " correct!";
       }
       alert(alertText);
    }
