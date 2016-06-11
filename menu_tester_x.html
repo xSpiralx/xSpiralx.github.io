@@ -37,10 +37,18 @@ function gradeTest() {
    //variables with global implications
    var totalQuestions = 3;
    var correctAnswers = 0;
-   var alertText = "Sorry little cub, that is the wrong answer!";
+   var alertText = "Hey there cub, looks like your becominga bear!";
    var i;
    var a1 = document.getElementById('q1').value.toLowerCase();
    if(a1 == 'spring mix') {
+      correctAnswers++;
+   }
+   var a2 = document.getElementById('q2').value.toLowerCase();
+   if(a1 == 'steak') {
+      correctAnswers++;
+   }
+   var a3 = document.getElementById('q3').value.toLowerCase();
+   if(a1 == 'chicken') {
       correctAnswers++;
    }
    if(correctAnswers == totalQuestions) {
