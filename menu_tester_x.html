@@ -36,12 +36,20 @@ permalink: /menu_tester_x/
 function gradeTest() {
    //variables with global implications
    var totalQuestions = 3;
-   var correctAnswers = 1;
+   var correctAnswers = 0;
    var alertText = "Sorry little cub, that is the wrong answer!";
    var i;
    var a1 = document.getElementById('q1').value.toLowerCase();
    if(a1 == 'spring mix') {
       correctAnswers++;
+   }
+   if(correctAnswers == totalQuestions) {
+         alertText = "Congratulations! You got all the questions right!";
+      }
+      else {
+         alertText = "You got " + correctAnswers + " out of " + totalQuestions + " correct!";
+      }
+      alert(alertText);
    }
 
 
