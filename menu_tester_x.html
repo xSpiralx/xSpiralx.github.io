@@ -11,23 +11,23 @@ permalink: /menu_tester_x/
     <form id="test">
 <table border="1" cellspacing="0" cellpadding="5">
 <tr>
-<td>What is inside of the Dragon Burger?</td>
+<td>What is inside of the DragonSlayer?</td>
 <td>
-<input id="q1" maxlength="30" name="q1" size="30" type="text" /></td>
+<input id="q1" maxlength="100" name="q1" size="100" type="text" /></td>
 </tr>
 </table>
 <table border="1" cellspacing="0" cellpadding="5">
 <tr>
 <td>What is inside of the tri tip?</td>
 <td>
-<input id="q2" maxlength="30" name="q2" size="30" type="text" /></td>
+<input id="q2" maxlength="100" name="q2" size="100" type="text" /></td>
 </tr>
 </table>
 <table border="1" cellspacing="0" cellpadding="5">
 <tr>
 <td>What is inside of the buffalo chicken salad?</td>
 <td>
-<input id="q3" maxlength="30" name="q3" size="30" type="text" /></td>
+<input id="q3" maxlength="100" name="q3" size="100" type="text" /></td>
 </tr>
 </table>
 <input onclick="gradeTest()" name="submit" type="button" value="Grade This Test" />
@@ -40,7 +40,7 @@ function gradeTest() {
    var alertText = "Hey there cub, looks like your becominga bear!";
    var i;
    var a1 = document.getElementById('q1').value.toLowerCase();
-   if(a1 == 'spring') {
+   if(a1 == 'bleu patty, bacon, tomato, raw onions, pickes, mixed greens, buffalo sauce') {
       correctAnswers++;
    }
    var a2 = document.getElementById('q2').value.toLowerCase();
