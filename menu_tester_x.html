@@ -33,6 +33,7 @@ permalink: /menu_tester_x/
 <input onclick="gradeTest()" name="submit" type="button" value="Grade This Test" />
 </form>
 <script type="text/javascript">
+alert("Warning: For the menu test food items will have shortened names. <br> Example: Dragonslayer patty=bleu patty and Smoked Bacon simply = bacon.")
 function gradeTest() {
    //variables with global implications
    var totalQuestions = 3;
@@ -55,7 +56,7 @@ function gradeTest() {
          alertText = "Congratulations! You got all the questions right!";
       }
       else {
-         alertText = "You got " + correctAnswers + " out of " + totalQuestions + " correct!";
+         alertText = "You got " + correctAnswers + " out of " + totalQuestions + " correct! <br> You have become a bear little cub!";
       }
       alert(alertText);
    }
