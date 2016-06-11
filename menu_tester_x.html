@@ -20,17 +20,31 @@ permalink: /menu_tester_x/
 <tr>
 <td>What is inside of the tri tip?</td>
 <td>
-<input id="q1" maxlength="30" name="q1" size="30" type="text" /></td>
+<input id="q2" maxlength="30" name="q2" size="30" type="text" /></td>
 </tr>
 </table>
 <table border="1" cellspacing="0" cellpadding="5">
 <tr>
 <td>What is inside of the buffalo chicken salad?</td>
 <td>
-<input id="q1" maxlength="30" name="q1" size="30" type="text" /></td>
+<input id="q3" maxlength="30" name="q3" size="30" type="text" /></td>
 </tr>
 </table>
 <input onclick="gradeTest()" name="submit" type="button" value="Grade This Test" />
 </form>
+<script type="text/javascript">
+function gradeTest() {
+   //variables with global implications
+   var totalQuestions = 3;
+   var correctAnswers = 1;
+   var alertText = "Sorry little cub, that is the wrong answer!";
+   var i;
+   var a1 = document.getElementById('q1').value.toLowerCase();
+   if(a1 == 'spring mix') {
+      correctAnswers++;
+   }
+
+
+</script>
 	</body>
 </html>
