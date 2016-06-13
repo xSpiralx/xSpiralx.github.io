@@ -13,7 +13,8 @@ permalink: /menu_tester_x/
 <tr>
 <td>What is inside of the DragonSlayer?</td>
 <td>
-<input id="q1" maxlength="100" name="q1" size="100" type="text" /></td>
+<td>Patty?</td>
+<input id="patty" maxlength="10" name="patty" size="10" type="text" /></td>
 </tr>
 </table>
 <table border="1" cellspacing="0" cellpadding="5">
@@ -40,10 +41,8 @@ function gradeTest() {
    var correctAnswers = 0;
    var alertText = "Hey there cub, looks like your becominga bear!";
    var i;
-   var a1 = document.getElementById('q1').value.toLowerCase();
-   var a = ("a")
-   var b = ("b")
-   if(a1 == a + b) {
+   var a1 = document.getElementById('patty').value.toLowerCase();
+   if(a1 == "bleu") {
       correctAnswers++;
    }
    var a2 = document.getElementById('q2').value.toLowerCase();
