@@ -7,25 +7,13 @@ permalink: /js/
 <html>
 <head>
   <title>Welcome to my Javascript page!</title>
-  <script type="text/javascript">
-    function substitute() {
-      var myValue = document.getElementById('myTextBox').value;
-
-      if (myValue.length == 0) {
-        alert('Please do not leave it blank!');
-        return;
-      }
-      var myTitle = document.getElementById('title');
-      myTitle.innerHTML = myValue;
-
-    }
-  </script>
-
-  </script>
 </head>
-<body onload="alert('Warning, you are about to see some rad stuff.')">
- <h1 id="title">Show me what you got!</h1>
-  <input type="text" id="myTextBox" />
-  <input type="submit" value="Check it out!" onclick="substitute()" />
+<body>
+  <script type="text/javascript">
+    var dragon_burger = ["patty", "spring mix", "raw onions"];
+    var test = dragon_burger.indexOf("patty");
+    alert(test)
+  </script>
+  <input type="button" name="Click" id="test">
 </body>
 </html>
