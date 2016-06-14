@@ -22,6 +22,22 @@ permalink: /menu_tester_x/
 <td>Onions?</td>
 <td>
 <input id="dragon_onions" maxlength="3" name="dragon_onions" size="3" type="text" /></td>
+<td>Bacon?</td>
+<td>
+<input id="dragon_bacon" maxlength="3" name="dragon_bacon" size="3" type="text" /></td>
+<td>Avocado?</td>
+<td>
+<input id="dragon_avocado" maxlength="3" name="dragon_avocado" size="3" type="text" /></td>
+<td>Sauce?</td>
+<td>
+<input id="dragon_sauce" maxlength="7" name="dragon_sauce" size="7" type="text" /></td>
+<td>Tomato?</td>
+<td>
+<input id="dragon_tomato" maxlength="3" name="dragon_tomato" size="3" type="text" /></td>
+<td>Pickles?</td>
+<td>
+<input id="dragon_pickles" maxlength="3" name="dragon_pickles" size="3" type="text" /></td>
+
 </tr>
 </table>
 <input onclick="gradeTest()" name="submit" type="button" value="Grade This Test" />
@@ -30,7 +46,7 @@ permalink: /menu_tester_x/
 alert("Warning: For the menu test food items will have shortened names. Example: Dragonslayer patty=bleu patty and Smoked Bacon simply = bacon.")
 function gradeTest() {
    //variables with global implications
-   var totalQuestions = 3;
+   var totalQuestions = 8;
    var correctAnswers = 0;
    var alertText = "Hey there cub, looks like your becominga bear!";
    var i;
@@ -44,6 +60,26 @@ function gradeTest() {
    }
    var a3 = document.getElementById('dragon_onions').value.toLowerCase();
    if(a3 == 'raw') {
+      correctAnswers++;
+   }
+   var a4 = document.getElementById('dragon_bacon').value.toLowerCase();
+   if(a4 == "yes") {
+      correctAnswers++;
+   }
+   var a5 = document.getElementById('dragon_avocado').value.toLowerCase();
+   if(a5 == "no") {
+      correctAnswers++;
+   }
+   var a6 = document.getElementById('dragon_sauce').value.toLowerCase();
+   if(a6 == "buffalo") {
+      correctAnswers++;
+   }
+   var a7 = document.getElementById('dragon_tomato').value.toLowerCase();
+   if(a7 == "yes") {
+      correctAnswers++;
+   }
+   var a8 = document.getElementById('dragon_pickles').value.toLowerCase();
+   if(a8 == "yes") {
       correctAnswers++;
    }
    if(correctAnswers == totalQuestions) {
