@@ -14,21 +14,10 @@ permalink: /menu_tester_x/
 <td>What is inside of the DragonSlayer?</td>
 <td>Patty?</td>
 <td>
-<input id="patty" maxlength="10" name="patty" size="10" type="text" /></td>
-</tr>
-</table>
-<table border="1" cellspacing="0" cellpadding="5">
-<tr>
-<td>What is inside of the tri tip?</td>
+<input id="dragon_patty" maxlength="4" name="dragon_patty" size="4" type="text" /></td>
+<td>Greens?</td>
 <td>
-<input id="q2" maxlength="100" name="q2" size="100" type="text" /></td>
-</tr>
-</table>
-<table border="1" cellspacing="0" cellpadding="5">
-<tr>
-<td>What is inside of the buffalo chicken salad?</td>
-<td>
-<input id="q3" maxlength="100" name="q3" size="100" type="text" /></td>
+<input id="dragon_spring" maxlength="6" name="dragon_spring" size="6" type="text" /></td>
 </tr>
 </table>
 <input onclick="gradeTest()" name="submit" type="button" value="Grade This Test" />
@@ -41,12 +30,12 @@ function gradeTest() {
    var correctAnswers = 0;
    var alertText = "Hey there cub, looks like your becominga bear!";
    var i;
-   var a1 = document.getElementById('patty').value.toLowerCase();
+   var a1 = document.getElementById('dragon_patty').value.toLowerCase();
    if(a1 == "bleu") {
       correctAnswers++;
    }
-   var a2 = document.getElementById('q2').value.toLowerCase();
-   if(a2 == 'steak') {
+   var a2 = document.getElementById('dragon_spring').value.toLowerCase();
+   if(a2 == 'spring') {
       correctAnswers++;
    }
    var a3 = document.getElementById('q3').value.toLowerCase();
