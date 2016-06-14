@@ -18,6 +18,9 @@ permalink: /menu_tester_x/
 <td>Greens?</td>
 <td>
 <input id="dragon_spring" maxlength="6" name="dragon_spring" size="6" type="text" /></td>
+<td>Onions?</td>
+<td>
+<input id="dragon_onions" maxlength="3" name="dragon_onions" size="3" type="text" /></td>
 </tr>
 </table>
 <input onclick="gradeTest()" name="submit" type="button" value="Grade This Test" />
@@ -38,8 +41,8 @@ function gradeTest() {
    if(a2 == 'spring') {
       correctAnswers++;
    }
-   var a3 = document.getElementById('q3').value.toLowerCase();
-   if(a3 == 'chicken') {
+   var a3 = document.getElementById('dragon_onions').value.toLowerCase();
+   if(a3 == 'raw') {
       correctAnswers++;
    }
    if(correctAnswers == totalQuestions) {
