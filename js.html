@@ -9,21 +9,11 @@ permalink: /js/
   <h1>Welcome to where I test some Javascript!</h1>
 </head>
 <body>
-  <p id="dragon_burger"></p>
+  <p id="dragonslayer"></p>
 
-  <button onclick="myFunction()">Click me</button>
-  <script>
-function myFunction() {
-    document.getElementById("dragon_burger").innerHTML = burger;
-}
-var burger = ["patty", "tomato", "spring"];
-document.getElementById("demo").innerHTML = burger[0];
+<script>
+var dragon_burger = ["bleu patty", "spring mix", "bacon"];
+document.getElementById("dragonslayer").innerHTML = dragon_burger[0];
 </script>
-  <button onclick="test()">Click me</button>
-  <script type="text/javascript">
-  function test() {
-    dragon_burger.slice(0, 2);
-  }
-  </script>
 </body>
 </html>
