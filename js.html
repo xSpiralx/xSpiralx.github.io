@@ -11,8 +11,11 @@ permalink: /js/
 <body>
   <script type="text/javascript">
     var dragon_burger = ["patty", "spring mix", "raw onions"];
-    var test = dragon_burger.indexOf("patty");
-    alert(test)
+    var test = dragon_burger.indexOf.slice("patty");
+    document.write(dragon_burger)
+    function myFunction() {
+    document.getElementById(test).innerHTML = dragon_burger;
+}
   </script>
   <input type="button" name="Click" id="test">
 </body>
