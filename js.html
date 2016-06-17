@@ -9,16 +9,16 @@ permalink: /js/
   <h1>Welcome to where I test some Javascript!</h1>
 </head>
 <body>
-  <p id="menu"></p>
+  <p id="menu_items"></p>
 
 <script>
-var menu_items = '{"dragonslayer":["patty": "bleu patty, "onions": "raw onions", "greens": "spring mix", "misc1": "pickles", "sauce": "buffalo sauce", "misc2": "tomato"]}';
+var dragonslayer = '{"patty":"bleu patty","onions":"raw onions","greens":"spring mix","misc1":"pickles","sauce":"buffalo sauce","misc2":"tomato"}';
 
-var obj = JSON.parse(menu_items);
-document.getElementById("menu").innerHTML =
-array.greens + "<br>" +
-array.patty + "<br>" +
-array.onions;
+var obj = JSON.parse(dragonslayer);
+document.getElementById("menu_items").innerHTML =
+obj.greens + "<br>" +
+obj.patty + "<br>" +
+obj.onions;
 </script>
 </body>
 </html>
