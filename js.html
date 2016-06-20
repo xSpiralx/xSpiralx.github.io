@@ -10,13 +10,16 @@ permalink: /js/
 </head>
 <body>
   <p id="menu_items"></p>
+  <button onclick="myFunction()">Try it</button>
 
 <script>
 var dragonslayer = '{"patty":"bleu patty","onions":"raw onions","greens":"spring mix","misc1":"pickles","sauce":"buffalo sauce","misc2":"tomato"}';
 
 var obj = JSON.parse(dragonslayer);
-document.getElementById("menu_items").innerHTML =
-obj.window.prompt("");
+function myFunction() {
+ var test1 = prompt("What is an ingredient in the dragonslayer?");
+  document.getElementById("menu_items").innerHTML = prompt("")
+}
 </script>
 </body>
 </html>
