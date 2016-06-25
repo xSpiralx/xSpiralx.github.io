@@ -9,7 +9,19 @@ permalink: /js/
 </head>
 <body>
   <p id="demo"></p>
-<script src="/Users/robertmcdermott/Documents/robert11295.github.io/menu_tester.js">
+<script type="text/javascript">
+var menu_items = [
+    {name: "Dragonslayer", ingredients:["spring mix", "bleu patty", "onions"], image: "equal.png"},
+    {name: "Cockadoodledoo", ingredients:["chicken", "swiss cheese"], image: "higher.png"},
+    {name: "Tri tip salad", ingredients:[], image: "lower.png"}
+];
+
+var menuItem = menu_items[0].name;
+
+window.alert("WHUTUP NOGGA!")
+
+document.getElementById("demo").innerHTML = 5 + 6;
+
 </script>
 </body>
 </html>
