@@ -7,3 +7,5 @@ var menu_items = [
 var menuItem = menu_items[0].name;
 
 window.alert("WHUTUP NOGGA!")
+
+document.getElementById("demo").innerHTML = 5 + 6;
