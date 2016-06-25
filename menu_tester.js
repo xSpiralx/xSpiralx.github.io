@@ -5,3 +5,5 @@ var menu_items = [
 ];
 
 var menuItem = menu_items[0].name;
+
+window.alert("WHUTUP NOGGA!")
