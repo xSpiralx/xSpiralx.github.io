@@ -11,8 +11,8 @@ email: robert.mcd@live.com
 description: This is my contact info use it if you want to get ahold of me.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: WIP
-github_username:  WIP
+twitter_username: 
+github_username:  
 
 # Build settings
 markdown: kramdown
